@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('lol') {
+      steps {
+        sh 'ls'
+      }
+    }
+
   }
 }
